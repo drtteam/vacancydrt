@@ -10,6 +10,7 @@
 body {
 	background-color: #341866;
 	color: #fff;
+  overflow-x: hidden;
 }
 
 .container {
@@ -17,6 +18,64 @@ body {
 	margin: 0 auto;
 	padding: 20px 0;
 }
+
+
+
+.png-1 {
+	position: absolute;
+	width: 55%;
+	top: 15%;
+	left: 25%;
+	z-index: -1;
+}
+
+.png-2 {
+	position: absolute;
+	width: 7%;
+	right: 20%;
+	top: 100%;
+}
+
+.png-3 {
+	position: absolute;
+	width: 7%;
+	top: 215%;
+	left: 28%;
+}
+
+.png-4 {
+	position: absolute;
+	z-index: -1;
+	width: 45%;
+	right: 5%;
+	top: 180%;
+	transform: rotate(-40deg);
+}
+
+.png-5 {
+	position: absolute;
+	z-index: -1;
+	width: 7%;
+	right: 20%;
+	top: 320%;
+}
+
+.png-6 {
+	position: absolute;
+	width: 35%;
+	z-index: -1;
+	transform: rotate(180deg);
+	top: 320%;
+}
+
+
+
+
+
+
+
+
+
 
 .section1 {
 	padding: 20px;
@@ -52,19 +111,11 @@ body {
 	padding-left: 10px;
 }
 
-.block pro-sport {
-	background: rgba(255, 255, 255, 0.014);
-	padding: 20px;
-	border-radius: 30px;
-	flex: 1;
-	border-style: solid;
-	border-color: #ffffff;
-}
-
 .block-content {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 20px;
+	flex-wrap: wrap;
 }
 
 .block {
@@ -77,6 +128,7 @@ body {
 	border-color: #9c9bfe;
 	box-shadow: 0 0 10px #9c9bfe;
 	transition: all 0.5s ease;
+	margin-bottom: 20px;
 }
 
 .block:hover {
@@ -168,7 +220,7 @@ body {
 .contact-info p {
 	font-size: 18px;
 	margin-bottom: 10px;
-	margin-right: 130px;
+	margin-right: 68px;
 }
 
 .contact-info p span {
@@ -177,7 +229,6 @@ body {
 
 .contact-methods {
 	display: flex;
-	/* justify-content: space-between; */
 	margin-top: 20px;
 	margin-bottom: 100px;
 }
@@ -193,80 +244,70 @@ body {
 	height: 20px;
 	margin-right: 10px;
 }
+
 .bx {
 	margin-right: 5px;
 }
 
-.png-1 {
-	position: absolute;
-	width: 55%;
-	top: 15%;
-	left: 25%;
-	z-index: -1;
-}
-.png-2 {
-	position: absolute;
-	width: 7%;
-	right: 15%;
-	top: 118%;
+
+
+@media (max-width: 1195px) {
+	.container {
+		width: 80%;
+	}
+  .png-1,
+	.png-2,
+	.png-3,
+	.png-4,
+	.png-5,
+	.png-6 {
+		display: none;
+	}
+	.section1 h1,
+	.section2 h1 {
+		font-size: 40px;
+		width: 100%;
+	}
 }
 
-.png-3 {
-	position: absolute;
-	width: 7%;
-	top: 270%;
-	left: 28%;
-}
+@media (max-width: 768px) {
+  .png-1,
+	.png-2,
+	.png-3,
+	.png-4,
+	.png-5,
+	.png-6 {
+		display: none;
+	}
+	.container {
+		width: 90%;
+	}
 
-.png-4 {
-	position: absolute;
-	z-index: -1;
-	width: 45%;
-	right: 5%;
-	top: 245%;
-	transform: rotate(-40deg);
-}
-.png-5 {
-	position: absolute;
-	z-index: -1;
-	width: 7%;
-	right: 20%;
-	top: 345%;
-}
-.png-6 {
-	position: absolute;
-	width: 35%;
-	z-index: -1;
-	transform: rotate(180deg);
-	top: 400%;
-}
+	.section1 h1,
+	.section2 h1 {
+		font-size: 2.5em;
+	}
 
-/* .shapes {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    pointer-events: none;
-}
+	.header-row {
+		display: block;
+		width: 100%;
+	}
 
-.shape1 {
-    position: absolute;
-    bottom: 0;
-    right: 10px;
-    width: 250px;
-    height: auto;
-    opacity: 0.8;
-}
+	.header-row h2,
+	.offer h2 {
+		font-size: 2em;
+	}
 
-.shape2 {
-    position: absolute;
-    bottom: 50px;
-    left: 50px;
-    width: 50px;
-    height: auto;
-    opacity: 0.8;
-} */
+	.block-content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.block {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
 
 @media (max-width: 430px) {
 	.png-1,
@@ -277,32 +318,40 @@ body {
 	.png-6 {
 		display: none;
 	}
+
 	.container {
+		width: 100%;
 		margin-left: 2px;
 	}
+
 	.section1 h1,
 	.section2 h1 {
 		font-size: 20px;
-		width: 210%;
+		width: 100%;
 	}
+
 	.header-row {
 		display: block;
-		width: 410%;
+		width: 100%;
 		margin-bottom: 20px;
 	}
+
 	.header-row h2,
 	.offer h2 {
 		font-size: 16px;
 		margin-bottom: 20px;
 	}
+
 	.block-content {
 		display: block;
-		width: 410%;
+		width: 100%;
 	}
+
 	.block {
 		margin-bottom: 20px;
-		margin-left: 20px;
+		width: 100%;
 	}
+
 	.block h3 {
 		font-size: 16px;
 	}
@@ -312,57 +361,61 @@ body {
 	}
 
 	.offer {
-		width: 210%;
+		width: 100%;
 	}
+
 	.offer p {
 		margin-bottom: 20px;
 		font-size: 12px;
 	}
+
 	.job-title {
-		width: 210%;
+		width: 100%;
 		text-align: center;
 	}
+
 	.job-title span {
 		font-size: 14px;
 	}
 
 	.job-description {
-		width: 210%;
+		width: 100%;
 		margin-bottom: 0;
 	}
+
 	.job-description h2 {
 		font-size: 14px;
 	}
+
 	.job-description li {
 		font-size: 12px;
 	}
+
 	.contact-info {
-		width: 210%;
+		width: 100%;
 	}
+  .contact-info p {
+	
+	margin-right: 24px;
+}
+
 	.contact-info p span {
 		font-size: 12px;
 	}
+
 	.contact-methods {
 		margin-bottom: 0px;
 	}
+
 	.contact-methods p {
 		font-size: 12px;
 	}
+
 	.contact-info {
 		margin-bottom: 10px;
 	}
+
 	.contact-links p {
 		text-decoration: none;
-	}
-}
-
-@media (max-width: 1195px) {
-	.container {
-		width: 80%;
-	}
-	.section1 h1,
-	.section2 h1 {
-		font-size: 40px;
-		width: 210%;
 	}
 }
