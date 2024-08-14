@@ -313,10 +313,9 @@ body {
 	.contact-links p {
     text-decoration: none;
   }		
-	.png-1,
-	.png-4,
-	.png-6 {
-		display: none;
+	.png-1 {
+		width: 89%;
+    top: -2%;
 	}
 
 	.container {
