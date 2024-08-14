@@ -25,54 +25,57 @@ body {
 
 .png-1 {
 	position: absolute;
-	width: 55%;
-	top: 4%;
-	left: 20%;
+	width: 55vw; /* Изменили с фиксированной ширины на vw */
+	top: 4vh; /* Используем vh для адаптации по высоте */
+	left: 3vw; /* Используем vw для адаптации по ширине */
 	z-index: -1;
 	transform: rotate(180deg);
 }
 
 .png-2 {
 	position: absolute;
-	width: 7%;
-	right: 20%;
-	top: 100%;
+	width: 7vw; /* Адаптируем ширину под разные экраны */
+	right: 20vw;
+	top: 100vh; /* Используем vh для точного позиционирования */
 }
 
 .png-3 {
 	position: absolute;
-	width: 7%;
-	top: 203%;
-	left: 28%;
+	width: 7vw;
+	top: 203vh;
+	left: 28vw;
 }
 
 .png-4 {
 	position: absolute;
 	z-index: -1;
-	width: 45%;
-	right: 5%;
-	top: 196%;
+	width: 45vw; /* Изменили фиксированную ширину на vw */
+	right: -5vw;
+	top: 196vh;
 	transform: rotate(-40deg);
 }
 
 .png-5 {
 	position: absolute;
 	z-index: -1;
-	width: 7%;
-	right: 24%;
-	top: 320%;
+	width: 7vw;
+	right: 24vw;
+	top: 320vh;
 }
 
 .png-6 {
 	position: absolute;
-	width: 35%;
+	width: 35vw;
 	z-index: -1;
 	transform: rotate(200deg);
-	top: 298%;
-	left: 10%;
+	top: 210vh;
+	left: 10vw;
 }
 
+
+
 .section1 {
+  position: relative;
 	padding: 20px;
 	color: #ffffff;
 }
@@ -159,6 +162,7 @@ body {
 }
 
 .section2 {
+  position: relative;
 	padding: 20px;
 	color: #ffffff;
 }
@@ -235,6 +239,11 @@ body {
 	margin-bottom: 20px;
 }
 
+.phone-link {
+    color: inherit;
+    text-decoration: none;
+}
+
 .contact-links img {
 	width: 20px;
 	height: 20px;
@@ -294,35 +303,29 @@ body {
 
 @media (max-width: 430px) {
 	.png-1 {
-		position: absolute;
-		width: 89%;
-		top: -2%;
-		left: 15%;
-		z-index: -1;
+		width: 89vw; /* Изменяем ширину под мобильные устройства */
+		top: -2vh;
+		left: 7vw;
 		transform: rotate(210deg);
 	}
 	.png-4 {
-		position: absolute;
-		z-index: -1;
-		width: 70%;
-		right: -7%;
-		top: 103%;
+		width: 70vw;
+		right: -7vw;
+		top: 103vh;
 		transform: rotate(120deg);
 	}
 	.png-6 {
-		position: absolute;
-		width: 59%;
-		z-index: -1;
-		transform: rotate(200deg);
-		top: 184%;
-		left: -1%;
+		width: 59vw;
+		top: 75vh;
+		left: -1vw;
 	}
-	.png-7 {
-		position: absolute;
-		width: 73%;
+  .png-7 {
+		display: block;
+    position: absolute;
+		width: 73vw;
 		z-index: -1;
-		top: 289%;
-		left: 10%;
+		top: 105vh;
+		left: 10vw;
 	}
 	.contact-links p {
 		text-decoration: none;
@@ -425,5 +428,61 @@ body {
 
 	.contact-links p {
 		text-decoration: none;
+	}
+}
+
+@media (max-width: 390px) {
+	.png-1 {
+		width: 89vw; /* Изменяем ширину под мобильные устройства */
+		top: -2vh;
+		left: 7vw;
+		transform: rotate(210deg);
+	}
+	.png-4 {
+		width: 70vw;
+		right: -7vw;
+		top: 119vh;
+		transform: rotate(120deg);
+	}
+	.png-6 {
+		width: 59vw;
+		top: 93vh;
+		left: -1vw;
+	}
+  .png-7 {
+		display: block;
+    position: absolute;
+		width: 73vw;
+		z-index: -1;
+		top: 116vh;
+		left: 10vw;
+	}
+}
+
+@media (max-width: 375px) {
+	.png-1 {
+		width: 89vw; /* Изменяем ширину под мобильные устройства */
+		top: -2vh;
+		left: 7vw;
+		transform: rotate(210deg);
+	}
+	.png-4 {
+		width: 70vw;
+		right: -7vw;
+		top: 149vh;
+		transform: rotate(120deg);
+	}
+	.png-6 {
+		width: 59vw;
+		top: 121vh;
+		left: -1vw;
+	}
+  .png-7 {
+		display: block;
+    position: absolute;
+		width: 73vw;
+		z-index: -1;
+		top: 157vh;
+		left: 10vw;
 	}
 }
