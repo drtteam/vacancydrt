@@ -273,11 +273,7 @@ body {
 	.contact-links p {
     text-decoration: none;
   }
-  .png-1,
-	.png-4,
-	.png-6 {
-		display: none;
-	}
+  
 	.container {
 		width: 90%;
 	}
@@ -314,9 +310,13 @@ body {
     text-decoration: none;
   }		
 	.png-1 {
-		width: 89%;
+    position: absolute;
+    width: 89%;
     top: -2%;
-	}
+    left: 45%;
+    z-index: -1;
+    transform: rotate(210deg);
+}
 
 	.container {
 		width: 100%;
