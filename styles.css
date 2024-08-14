@@ -24,8 +24,8 @@ body {
 .png-1 {
 	position: absolute;
 	width: 55%;
-	top: 15%;
-	left: 25%;
+	top: 4%;
+	left: 86%;
 	z-index: -1;
 }
 
@@ -39,7 +39,7 @@ body {
 .png-3 {
 	position: absolute;
 	width: 7%;
-	top: 215%;
+	top: 203%;
 	left: 28%;
 }
 
@@ -48,7 +48,7 @@ body {
 	z-index: -1;
 	width: 45%;
 	right: 5%;
-	top: 180%;
+	top: 196%;
 	transform: rotate(-40deg);
 }
 
@@ -56,7 +56,7 @@ body {
 	position: absolute;
 	z-index: -1;
 	width: 7%;
-	right: 20%;
+	right: 24%;
 	top: 320%;
 }
 
@@ -64,8 +64,9 @@ body {
 	position: absolute;
 	width: 35%;
 	z-index: -1;
-	transform: rotate(180deg);
-	top: 320%;
+	transform: rotate(200deg);
+	top: 298%;
+	left: 10%
 }
 
 
