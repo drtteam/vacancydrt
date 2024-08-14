@@ -431,6 +431,34 @@ body {
 	}
 }
 
+@media (max-width: 414px) {
+	.png-1 {
+		width: 89vw; /* Изменяем ширину под мобильные устройства */
+		top: -2vh;
+		left: 7vw;
+		transform: rotate(210deg);
+	}
+	.png-4 {
+		width: 70vw;
+		right: -7vw;
+		top: 89vh;
+		transform: rotate(140deg);
+	}
+	.png-6 {
+		width: 59vw;
+		top: 66vh;
+		left: -1vw;
+	}
+  .png-7 {
+		display: block;
+    position: absolute;
+		width: 73vw;
+		z-index: -1;
+		top: 89vh;
+		left: 10vw;
+	}
+}
+
 @media (max-width: 390px) {
 	.png-1 {
 		width: 89vw; /* Изменяем ширину под мобильные устройства */
