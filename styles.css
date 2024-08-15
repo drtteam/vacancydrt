@@ -438,16 +438,12 @@ body {
 	.contact-info {
 		margin-bottom: 10px;
 	}
-
-	.contact-links p {
-		text-decoration: none;
-	}
 }
 
-/* @media (max-width: 414px) {
+@media (max-width: 414px) and (max-height: 896px) {
 	.png-1 {
 		width: 89vw;
-		top: -20vh;
+		top: 0vh;
 		left: 45vw;
 		transform: rotate(210deg);
 	}
@@ -482,7 +478,7 @@ body {
 	}
 }
 
-@media (max-width: 390px) {
+/* @media (max-width: 390px) {
 	.png-1 {
 		width: 89vw; /
 		top: -2vh;
