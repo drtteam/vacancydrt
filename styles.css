@@ -444,17 +444,17 @@ body {
 	}
 }
 
-@media (max-width: 414px) {
+/* @media (max-width: 414px) {
 	.png-1 {
-		width: 89vw; /* Изменяем ширину под мобильные устройства */
-		top: -2vh;
+		width: 89vw;
+		top: -20vh;
 		left: 45vw;
 		transform: rotate(210deg);
 	}
 	.png-4 {
 		width: 70vw;
 		right: -20vw;
-		top: 122vh;
+		top: 108vh;
 		transform: rotate(130deg);
 	}
 	.png-6 {
@@ -484,7 +484,7 @@ body {
 
 @media (max-width: 390px) {
 	.png-1 {
-		width: 89vw; /* Изменяем ширину под мобильные устройства */
+		width: 89vw; /
 		top: -2vh;
 		left: 45vw;
 		transform: rotate(210deg);
@@ -518,11 +518,11 @@ body {
 		left: -25vw;
 		transform: rotate(180deg);
 	}
-}
+} */
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
 	.png-1 {
-		width: 89vw; /* Изменяем ширину под мобильные устройства */
+		width: 89vw;
 		top: -2vh;
 		left: 45vw;
 		transform: rotate(210deg);
@@ -556,4 +556,4 @@ body {
 		left: -25vw;
 		transform: rotate(180deg);
 	}
-}
+} */
