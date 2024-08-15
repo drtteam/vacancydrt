@@ -316,7 +316,7 @@ body {
 	.png-4 {
 		width: 70vw;
 		right: -20vw;
-		top: 103vh;
+		top: 26%;
 		transform: rotate(130deg);
 	}
 	.png-6 {
@@ -443,7 +443,7 @@ body {
 	}
 }
 
-@media (max-width: 414px) {
+/* @media (max-width: 414px) {
 	.png-1 {
 		width: 89vw;
 		top: 0vh;
@@ -477,7 +477,7 @@ body {
 		left: -25vw;
 		transform: rotate(180deg);
 	}
-}
+} */
 
 /* @media (max-width: 390px) {
 	.png-1 {
