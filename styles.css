@@ -335,6 +335,7 @@ body {
 		width: 97vw;
 		z-index: -1;
 		top: 351vh;
+		-webkit-top: 400vh;
 		left: -25vw;
 		transform: rotate(180deg);
 	}
