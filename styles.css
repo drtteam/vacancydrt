@@ -21,7 +21,12 @@ body {
 }
 
 .png-7 {
-	display: none;
+	position: absolute;
+	width: 35vw;
+	z-index: -1;
+	transform: rotate(200deg);
+	top: 300vh;
+	left: 1vw;
 }
 
 .png-8 {
@@ -56,7 +61,7 @@ body {
 	z-index: -1;
 	width: 45vw; /* Изменили фиксированную ширину на vw */
 	right: -5vw;
-	top: 196vh;
+	top: 168vh;
 	transform: rotate(-40deg);
 }
 
@@ -73,7 +78,7 @@ body {
 	width: 35vw;
 	z-index: -1;
 	transform: rotate(200deg);
-	top: 210vh;
+	top: 289vh;
 	left: 10vw;
 }
 
@@ -321,8 +326,6 @@ body {
 		left: -9vw;
 	}
 	.png-7 {
-		display: block;
-		position: absolute;
 		width: 73vw;
 		z-index: -1;
 		top: 286vh;
@@ -460,8 +463,6 @@ body {
 		left: -9vw;
 	}
 	.png-7 {
-		display: block;
-		position: absolute;
 		width: 73vw;
 		z-index: -1;
 		top: 302vh;
