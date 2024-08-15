@@ -317,7 +317,7 @@ body {
 	}
 	.png-6 {
 		width: 69vw;
-		top: 246vh;
+		top: 252vh;
 		left: -9vw;
 	}
 	.png-7 {
@@ -325,7 +325,7 @@ body {
 		position: absolute;
 		width: 73vw;
 		z-index: -1;
-		top: 356vh;
+		top: 400vh;
 		left: 33vw;
 	}
 
@@ -334,7 +334,7 @@ body {
 		position: absolute;
 		width: 97vw;
 		z-index: -1;
-		top: 437vh;
+		top: 490vh;
 		left: -25vw;
 		transform: rotate(180deg);
 	}
