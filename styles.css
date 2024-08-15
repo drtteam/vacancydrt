@@ -14,13 +14,17 @@ body {
 }
 
 .container {
-	overflow: hidden;
+	position: relative;
 	width: 50%;
 	margin: 0 auto;
 	padding: 20px 0;
 }
 
-.png-7{
+.png-7 {
+	display: none;
+}
+
+.png-8 {
 	display: none;
 }
 
@@ -73,10 +77,7 @@ body {
 	left: 10vw;
 }
 
-
-
 .section1 {
-  position: relative;
 	padding: 20px;
 	color: #ffffff;
 }
@@ -163,7 +164,6 @@ body {
 }
 
 .section2 {
-  position: relative;
 	padding: 20px;
 	color: #ffffff;
 }
@@ -241,8 +241,8 @@ body {
 }
 
 .phone-link {
-    color: inherit;
-    text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 .contact-links img {
@@ -306,33 +306,45 @@ body {
 	.png-1 {
 		width: 89vw; /* Изменяем ширину под мобильные устройства */
 		top: -2vh;
-		left: 7vw;
+		left: 45vw;
 		transform: rotate(210deg);
 	}
 	.png-4 {
 		width: 70vw;
-		right: -7vw;
-		top: 103vh;
-		transform: rotate(120deg);
+		right: -20vw;
+		top: 128vh;
+		transform: rotate(130deg);
 	}
 	.png-6 {
-		width: 59vw;
-		top: 75vh;
-		left: -1vw;
+		width: 69vw;
+		top: 226vh;
+		left: -9vw;
 	}
-  .png-7 {
+	.png-7 {
 		display: block;
-    position: absolute;
+		position: absolute;
 		width: 73vw;
 		z-index: -1;
-		top: 105vh;
-		left: 10vw;
+		top: 356vh;
+		left: 33vw;
 	}
+
+	.png-8 {
+		display: block;
+		position: absolute;
+		width: 97vw;
+		z-index: -1;
+		top: 437vh;
+		left: -25vw;
+		transform: rotate(180deg);
+	}
+
 	.contact-links p {
 		text-decoration: none;
 	}
 
 	.container {
+		overflow: hidden;
 		width: 100%;
 		margin-left: 2px;
 	}
@@ -436,27 +448,37 @@ body {
 	.png-1 {
 		width: 89vw; /* Изменяем ширину под мобильные устройства */
 		top: -2vh;
-		left: 7vw;
+		left: 45vw;
 		transform: rotate(210deg);
 	}
 	.png-4 {
 		width: 70vw;
-		right: -7vw;
-		top: 89vh;
-		transform: rotate(140deg);
+		right: -20vw;
+		top: 108vh;
+		transform: rotate(130deg);
 	}
 	.png-6 {
-		width: 59vw;
-		top: 66vh;
-		left: -1vw;
+		width: 69vw;
+		top: 192vh;
+		left: -9vw;
 	}
-  .png-7 {
+	.png-7 {
 		display: block;
-    position: absolute;
+		position: absolute;
 		width: 73vw;
 		z-index: -1;
-		top: 89vh;
-		left: 10vw;
+		top: 302vh;
+		left: 33vw;
+	}
+
+	.png-8 {
+		display: block;
+		position: absolute;
+		width: 97vw;
+		z-index: -1;
+		top: 372vh;
+		left: -25vw;
+		transform: rotate(180deg);
 	}
 }
 
@@ -464,27 +486,37 @@ body {
 	.png-1 {
 		width: 89vw; /* Изменяем ширину под мобильные устройства */
 		top: -2vh;
-		left: 7vw;
+		left: 45vw;
 		transform: rotate(210deg);
 	}
 	.png-4 {
 		width: 70vw;
-		right: -7vw;
-		top: 119vh;
-		transform: rotate(120deg);
+		right: -20vw;
+		top: 145vh;
+		transform: rotate(130deg);
 	}
 	.png-6 {
-		width: 59vw;
-		top: 93vh;
-		left: -1vw;
+		width: 69vw;
+		top: 278vh;
+		left: -9vw;
 	}
-  .png-7 {
+	.png-7 {
 		display: block;
-    position: absolute;
+		position: absolute;
 		width: 73vw;
 		z-index: -1;
-		top: 116vh;
-		left: 10vw;
+		top: 354vh;
+		left: 33vw;
+	}
+
+	.png-8 {
+		display: block;
+		position: absolute;
+		width: 97vw;
+		z-index: -1;
+		top: 539vh;
+		left: -25vw;
+		transform: rotate(180deg);
 	}
 }
 
@@ -492,26 +524,36 @@ body {
 	.png-1 {
 		width: 89vw; /* Изменяем ширину под мобильные устройства */
 		top: -2vh;
-		left: 7vw;
+		left: 45vw;
 		transform: rotate(210deg);
 	}
 	.png-4 {
 		width: 70vw;
-		right: -7vw;
-		top: 149vh;
-		transform: rotate(120deg);
+		right: -20vw;
+		top: 145vh;
+		transform: rotate(130deg);
 	}
 	.png-6 {
-		width: 59vw;
-		top: 121vh;
-		left: -1vw;
+		width: 69vw;
+		top: 278vh;
+		left: -9vw;
 	}
-  .png-7 {
+	.png-7 {
 		display: block;
-    position: absolute;
+		position: absolute;
 		width: 73vw;
 		z-index: -1;
-		top: 157vh;
-		left: 10vw;
+		top: 354vh;
+		left: 33vw;
+	}
+
+	.png-8 {
+		display: block;
+		position: absolute;
+		width: 97vw;
+		z-index: -1;
+		top: 539vh;
+		left: -25vw;
+		transform: rotate(180deg);
 	}
 }
