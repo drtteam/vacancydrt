@@ -96,8 +96,9 @@ body {
 	text-shadow: 0 0 5px #decef1;
 }
 
-h1 .stub {
+.stub {
 	text-align: center;
+    	margin-top: 50px;
 }
 
 .header-row {
