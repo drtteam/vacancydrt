@@ -96,6 +96,10 @@ body {
 	text-shadow: 0 0 5px #decef1;
 }
 
+.section1 h1 .stub {
+	text-align: center;
+}
+
 .header-row {
 	display: flex;
 	justify-content: space-between;
