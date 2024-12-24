@@ -26,6 +26,7 @@ body {
 	z-index: -1;
 	top: 420vh;
 	left: -10vw;
+	display: none;
 }
 
 .png-8 {
@@ -79,6 +80,7 @@ body {
 	transform: rotate(200deg);
 	top: 311vh;
 	left: 10vw;
+	display: none;
 }
 
 .section1 {
@@ -170,6 +172,7 @@ body {
 .section2 {
 	padding: 20px;
 	color: #ffffff;
+	display: none;
 }
 
 .section2 h1 {
